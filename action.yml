@@ -15,5 +15,5 @@ inputs:
     required: true
     default: 'true'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js' # Built with @vercel/ncc: `ncc build index.js --license licenses.txt`
