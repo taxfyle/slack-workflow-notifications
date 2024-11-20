@@ -67,3 +67,10 @@ Comma-separated list of channels to send the notification message to.
 `condensed`: **required**, defaults to `'true'`
 
 Hides the individual job statuses from the message.
+
+
+## Building
+
+Make sure ncc is installed, if not install using `npm i -g @vercel/ncc`
+
+Run build with `ncc build index.js --license licenses.txt`
